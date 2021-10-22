@@ -37,4 +37,6 @@ jobs:
           
       - name: Release file
         uses: djnicholson/release-action@v2.10
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
